@@ -4739,7 +4739,7 @@
 <!-- eugene -->
 <servlet>
 	<servlet-name>PersonServlet</servlet-name>
-<servet-class>PersonServlet</servlet-class>
+  <servlet-class>PersonServlet</servlet-class>
 </servlet>
 <servlet-mapping>
 <servlet-name>PersonServlet</servlet-name>

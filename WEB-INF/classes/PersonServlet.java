@@ -14,7 +14,7 @@ public class PersonServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		
 		String requestUrl = request.getRequestURI();
-		String name = requestUrl.substring("/app/people/".length());
+		String name = requestUrl.substring("/AWS_KWA_API/people/".length());
 		
 		Person person = DataStore.getInstance().getPerson(name);
 		
