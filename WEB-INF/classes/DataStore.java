@@ -22,6 +22,7 @@ public class DataStore {
 		personMap.put("Ada", new Person("Ada", "Ada Lovelace was the first programmer.", 1815));
 		personMap.put("Kevin", new Person("Kevin", "Kevin is the author of HappyCoding.io.", 1986));
 		personMap.put("Stanley", new Person("Stanley", "Stanley is Kevin's cat.", 2007));
+		personMap.put("Eugene", new Person("Eugene", "Eugeen is me.", 1964));
 	}
 
 	public Person getPerson(String name) {
