@@ -4743,7 +4743,7 @@
 </servlet>
 <servlet-mapping>
 <servlet-name>PersonServlet</servlet-name>
-<url-pattern>/people/*</url-pattern>
+<url-pattern>/customer/*</url-pattern>
 </servlet-mapping>
 
 
